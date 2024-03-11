@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+
+    <!-- bootstrab -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- css files -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+
+</head>
+
+<body>
+
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+        <div class="card border-0 mx-3 bg-white darkgrayish-blue my-3 flex-lg-row col-lg-8 col-xl-8 col-xxl-6">
+
+            <picture class="d-lg-none">
+                <img class="card-img-top img-fluid" src="images/image-product-mobile.jpg" alt="product image">
+            </picture>
+            <picture class="d-none col-lg-6 d-lg-flex">
+                <img class="rounded-start img-fluid" src="images/image-product-desktop.jpg" alt="product image">
+            </picture>
+
+            <div class="card-body col-lg-6 px-lg-6 mx-4">
+                <div class="card-content">
+                    <p class="card-subtitle text-uppercase mt-3 text-black-50">PERFUME</p>
+                    <h2 class="card-title verydark-blue display-6.5 family-fraunces fw-bold mt-2 mb-3">Gabrielle Essence Eau De Parfum</h2>
+                    <p class="card-text describe-text monospace lh-lg text-black-50"> A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                </div>
+                <div class="card-price">
+                    <p class="card-text d-flex align-items-center darkgrayish-blue">
+                        <span class="display-6 me-3 mt-4 fw-bold">$149.99</span>
+                        <s>$169.99</s>
+                    </p>
+                </div>
+
+                <a href="#" type="button" class="d-flex btn btn-hover align-items-center justify-content-center my-4 py-3 text-white"> <i class="fas fa-shopping-cart"></i> <span class="ms-2">Add to cart</span> </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
